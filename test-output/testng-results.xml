@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95299" started-at="2020-12-08T01:46:44 EET" finished-at="2020-12-08T01:48:19 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95299" started-at="2020-12-08T01:46:44 EET" finished-at="2020-12-08T01:48:19 EET">
+      <class name="test.AddPostTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:test.AddPostTest@27a5f880]" name="setupTest" is-config="true" duration-ms="137" started-at="2020-12-08T01:46:44 EET" finished-at="2020-12-08T01:46:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:test.AddPostTest@27a5f880]" name="setupMethod" is-config="true" duration-ms="13387" started-at="2020-12-08T01:46:45 EET" finished-at="2020-12-08T01:46:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="VerifyloginWithInvalidData(java.lang.String, java.lang.String)[pri:0, instance:test.AddPostTest@27a5f880]" name="VerifyloginWithInvalidData" duration-ms="2506" started-at="2020-12-08T01:46:58 EET" data-provider="readInvalidLoginDataFromExcelFile" finished-at="2020-12-08T01:47:01 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloginWithInvalidData -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:test.AddPostTest@27a5f880]" name="tearDownMethod" is-config="true" duration-ms="791" started-at="2020-12-08T01:47:01 EET" finished-at="2020-12-08T01:47:01 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyloginWithInvalidData status=SUCCESS method=AddPostTest.VerifyloginWithInvalidData(java.lang.String, java.lang.String)[pri:0, instance:test.AddPostTest@27a5f880] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:test.AddPostTest@27a5f880]" name="setupMethod" is-config="true" duration-ms="14490" started-at="2020-12-08T01:47:02 EET" finished-at="2020-12-08T01:47:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="VerifyloginWithValidData(java.lang.String, java.lang.String)[pri:0, instance:test.AddPostTest@27a5f880]" name="VerifyloginWithValidData" duration-ms="12721" started-at="2020-12-08T01:47:16 EET" data-provider="readValidLoginDataFromExcelFile" finished-at="2020-12-08T01:47:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloginWithValidData -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:test.AddPostTest@27a5f880]" name="tearDownMethod" is-config="true" duration-ms="737" started-at="2020-12-08T01:47:29 EET" finished-at="2020-12-08T01:47:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyloginWithValidData status=SUCCESS method=AddPostTest.VerifyloginWithValidData(java.lang.String, java.lang.String)[pri:0, instance:test.AddPostTest@27a5f880] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:test.AddPostTest@27a5f880]" name="setupMethod" is-config="true" duration-ms="10181" started-at="2020-12-08T01:47:29 EET" finished-at="2020-12-08T01:47:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verifyAddPost()[pri:0, instance:test.AddPostTest@27a5f880]" name="verifyAddPost" duration-ms="38528" started-at="2020-12-08T01:47:40 EET" finished-at="2020-12-08T01:48:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPost -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:test.AddPostTest@27a5f880]" name="tearDownMethod" is-config="true" duration-ms="916" started-at="2020-12-08T01:48:18 EET" finished-at="2020-12-08T01:48:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddPost status=SUCCESS method=AddPostTest.verifyAddPost()[pri:0, instance:test.AddPostTest@27a5f880] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.AddPostTest@27a5f880]" name="tearDownTest" is-config="true" duration-ms="287" started-at="2020-12-08T01:48:19 EET" finished-at="2020-12-08T01:48:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- test.AddPostTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
